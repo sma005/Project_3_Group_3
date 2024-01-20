@@ -16,8 +16,12 @@ CREATE TABLE "Addresses" (
 );
 
 CREATE TABLE "Categories" (
+    "Index" int   NOT NULL,
     "Place_ID" varchar(200)   NOT NULL,
-    "Category" varchar(100)   NOT NULL
+    "Category" varchar(100)   NOT NULL,
+    CONSTRAINT "pk_Categories" PRIMARY KEY (
+        "Index"
+     )
 );
 
 ALTER TABLE "Categories" ADD CONSTRAINT "fk_Categories_Place_ID" FOREIGN KEY("Place_ID")
