@@ -1,15 +1,14 @@
-Address
+Addresses
 -
-property varchar(100)
-place_id varchar(max) PK
-address varchar(100)
-city varchar(50)
-state varchar(15)
-zip varchar(10)
-country varchar(15)
+Place_ID varchar(max) PK
+Property varchar(100)
+Address varchar(100)
+City varchar(50)
+State varchar(15)
+Zip varchar(10)
+Country varchar(30)
 
-Category
+Categories
 -
-index int PK
-categories varchar(100)
-place_id varchar(max) FK >- Address.place_id
+Place_ID varchar(max) FK >- Addresses.place_id
+Category varchar(100)
