@@ -3,7 +3,7 @@
 
 
 CREATE TABLE "Addresses" (
-    "Place_ID" varchar(max)   NOT NULL,
+    "Place_ID" varchar(200)   NOT NULL,
     "Property" varchar(100)   NOT NULL,
     "Address" varchar(100)   NOT NULL,
     "City" varchar(50)   NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE "Addresses" (
 );
 
 CREATE TABLE "Categories" (
-    "Place_ID" varchar(max)   NOT NULL,
+    "Place_ID" varchar(200)   NOT NULL,
     "Category" varchar(100)   NOT NULL
 );
 
