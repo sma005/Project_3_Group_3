@@ -10,5 +10,6 @@ Country varchar(30)
 
 Categories
 -
-Place_ID varchar(200) FK >- Addresses.place_id
-Category varchar(100)
+index int PK
+categories varchar(100)
+place_id varchar(max) FK >- Address.place_id
