@@ -3,7 +3,7 @@ This project is part of the edX Data Visualization Bootcamp affiliated with Case
 
 Group Members in this project are Steven Anthony, Kaleb Decker, Maddie Haughton, Em Needles, and Dena Wetmore.
 
-As a group, we chose to pursue the data engineering track of project 3. This track entails using ETL workflows on data of at least 100 records and then storing it in a database.
+As a group, we chose to pursue the data engineering track of project 3. This track entails using ETL workflows on a dataset of at least 100 records and then storing it in a database.
 
 We chose to create a database of things to do when visiting US cities.  We cleaned and analyzed data from the Geoapify places API (https://www.geoapify.com/places-api) and then created a prewritten list of US cities to choose from and an option for the user to input US city coordinates in the python script to get information on places to visit in the user's chosen city. Our main python script for this project is the Jupyter Notebook file project3.ipynb within the Python Scripts folder. To use this project, you can run the python script and choose which city you would like to visit. Once that input is complete, the script will output two csv files based on pandas dataframes created within the script.
 
